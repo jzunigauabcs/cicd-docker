@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-          ${{ secrets.DOCKER_USERNAME }}/api-demo:pr-${{ github.event.number }}
-          ${{ secrets.DOCKER_USERNAME }}/api-demo:latest
+            ${{ secrets.DOCKER_USERNAME }}/api-demo:pr-${{ github.event.number }}
+            ${{ secrets.DOCKER_USERNAME }}/api-demo:latest
